@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body >
+    <fieldset style="background-color: rgb(184, 145, 210)" >
+    <legend style="background-color: blueviolet; display: inline">Personal data</legend>
+    <form>
+      <fieldset style="background-color:hsl(219, 72%, 60%) ;">
+           <legend style="background-color: blueviolet; height: 50px"> <br> your name <br></legend>
+           
+           <table cellspacing="0px" cellpadding="0px">
+             <tr>
+               <td>
+                 <label > first name </label>
+               </td>
+               <td>:</td>
+               <td >
+                 <input type="text" name="fname" placeholder="ex amira " />
+               </td>
+             </tr>
+             <tr>
+               <td>
+                 <label> second name </label>
+               </td>
+               <td>:</td>
+               <td>
+                 <input type="text" name="sname" placeholder="ex elmohands " />
+               </td>
+             </tr>
+           </table>
+      </fieldset>
+      <br /> <br />
+      <table cellspacing="0px" cellpadding="0px">
+        <tr>
+          <td>
+            <label>your phone</label>
+          </td>
+          <td>:</td>
+          <td>
+            <input type="tel" name="phone" />
+          </td>
+        </tr>
+        <tr >
+          <td>
+            <label>Email </label>
+          </td>
+          <td>:</td>
+          <td>
+            <input type="email" name="email" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>password</label>
+          </td>
+          <td>:</td>
+          <td>
+            <input type="password" name="password" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>re_password</label>
+          </td>
+          <td>:</td>
+          <td>
+            <input type="password" name="re_password" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table>
+        <tr>
+          <td>
+            <input id="male" type="radio" name="male" value="male" />
+            <label for="male">male</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input id="female" type="radio" name="female" value="female" />
+            <label for="female">female</label>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <input type="checkbox" name="student" value="student" />
+      <label for="">Student</label>
+      <br />
+      <input type="checkbox" name="Graduated" value="Graduated" />
+      <label for="">Graduated</label>
+      <br />
+      <br />
+      <select name="sel" style="width: 120px;">
+        <option value="AUC">AUC</option>
+        <option value="ETW">ETW</option>
+      </select>
+      <br />
+      <button type="submit" style="background-color: black;">  <img src="im.jpg" width="70px" height="50px"></button>
+    </form>
+  </fieldset>
+  </body>
+</html>
